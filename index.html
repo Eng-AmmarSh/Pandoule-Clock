@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>clooc</title>
+</head>
+<body>
+  <div class="container">
+    <div class="clooc">
+
+      <div class="circle" id="sc" style="--clr:#04fc43;"><i></i></div>
+      <div class="circle circle2" id="mn" style="--clr:#fee800;"><i></i></div>
+      <div class="circle circle3"  id="hr" style="--clr:#ff2972;"><i></i></div>
+
+      <span style="--i:1"><p>1</p></span>
+      <span style="--i:2"><p>2</p></span>
+      <span style="--i:3"><p>3</p></span>
+      <span style="--i:4"><p>4</p></span>
+      <span style="--i:5"><p>5</p></span>
+      <span style="--i:6"><p>6</p></span>
+      <span style="--i:7"><p>7</p></span>
+      <span style="--i:8"><p>8</p></span>
+      <span style="--i:9"><p>9</p></span>
+      <span style="--i:10"><p>10</p></span>
+      <span style="--i:11"><p>11</p></span>
+      <span style="--i:12"><p>12</p></span>
+    </div>
+    <div id="Pendulum_outer">
+      <div id="Pendulum_inside">
+        <div class="pendulum"  id="pendulum" ><i></i></div>
+      </div>
+    </div>
+    <div id="time">
+      <div id="hours" style="--clr:#ff2972;">00</div>
+      <div id="minuts" style="--clr:#fee800;">00</div>
+      <div id="secounds" style="--clr:#04fc43;">00</div>
+      <div id="ampm">AM</div>
+      <div id="chang_12hr">
+        <form id="form">
+          <div>
+            <input type="radio" id="12hr" name="12hr" value="12 hr" checked>
+            <label id="lab_rad1" for="12hr">12 hr</label><br>
+          </div>
+          <div>
+            <input type="radio" id="24hr" name="12hr" value="24 hr">
+            <label id="lab_rad2" for="24hr">24 hr</label><br>
+          </div>
+        </form>  
+      </div>
+      <!-- <div>
+        <select  id="select">
+          <option value="12hr">12 hr</option>
+          <option value="24hr">24 hr</option>
+        </select>
+      </div> -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
